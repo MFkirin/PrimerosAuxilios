@@ -1,0 +1,25 @@
+:root{
+    --title: #D90404;
+    --icons: #A62940;
+    --primary-background: #AEEBF2;
+    --secondary-background: #15BFBF;
+
+    /* Buttons */
+    --buttons: #F22E3E;
+}
+
+.title-color{
+ color: var(--title);
+}
+
+.icon-color{
+    color: var(--icons);
+}
+
+.primary-background-color{
+    color: var(--primary-background);
+}
+
+.secondary-background-color{
+    color: var(--secondary-background);
+}
