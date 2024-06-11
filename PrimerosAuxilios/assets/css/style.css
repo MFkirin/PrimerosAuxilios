@@ -9,6 +9,10 @@
     --buttons: #F22E3E;
 }
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .header-bg{
     background-color: var(--header-background);
 }
@@ -49,4 +53,12 @@
 
 .footer-link{
     color: #88fafa;
+}
+
+.numeros{
+    font-size: 4rem;
+}
+
+.hamburguesa{
+    color: white !important;
 }
