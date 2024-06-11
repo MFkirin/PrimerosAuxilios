@@ -3,9 +3,14 @@
     --icons: #A62940;
     --primary-background: #AEEBF2;
     --secondary-background: #15BFBF;
+    --header-background:#fef3ef;
 
     /* Buttons */
     --buttons: #F22E3E;
+}
+
+.header-bg{
+    background-color: var(--header-background);
 }
 
 .title-color{
@@ -22,4 +27,26 @@
 
 .secondary-background-color{
     color: var(--secondary-background);
+}
+
+
+ a:hover{
+    opacity: 0.6;
+}
+
+.título{
+    font-size: 3em;
+}
+
+.carousel-item{
+    height: 520px;
+}
+.carousel-item>img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.footer-link{
+    color: #88fafa;
 }
